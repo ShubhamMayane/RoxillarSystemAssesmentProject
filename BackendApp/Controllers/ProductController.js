@@ -427,9 +427,9 @@ async function getPieChartDataCategoryWise(req, res)
 async function combineData(req, res){
     try {
 
-        const api1Url = `http://localhost:8080/api/products/getSaleDetails?inputMonth=${req.query.inputMonth}`
-        const api2Url = `http://localhost:8080/api/products/getPieChartDataRange?inputMonth=${req.query.inputMonth}`;
-        const api3Url = `http://localhost:8080/api/products/getPieChartDataCategory?inputMonth=${req.query.inputMonth}`;
+        const api1Url = `https://roxillarsystemassesmentprojectbackendapp.onrender.com/api/products/getSaleDetails?inputMonth=${req.query.inputMonth}`
+        const api2Url = `https://roxillarsystemassesmentprojectbackendapp.onrender.com/api/products/getPieChartDataRange?inputMonth=${req.query.inputMonth}`;
+        const api3Url = `https://roxillarsystemassesmentprojectbackendapp.onrender.com/api/products/getPieChartDataCategory?inputMonth=${req.query.inputMonth}`;
         
        
        // Utility function to fetch data from an API
