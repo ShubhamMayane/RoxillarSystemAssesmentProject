@@ -31,7 +31,7 @@ function TransactionManagement() {
         console.log('Called fetchEmployees')
         try {
            
-            const url =`http://localhost:8080/api/products/getProducts?search=${search}&page=${page}&limit=${limit}`;
+            const url =`https://roxillarsystemassesmentprojectbackendapp.onrender.com/api/products/getProducts?search=${search}&page=${page}&limit=${limit}`;
             const options = 
             {
                 method: 'GET',
@@ -62,7 +62,7 @@ async function fetchMonthlyData(inputMonth=3) {
 
     try {
        
-        const url =`http://localhost:8080/api/products/getCombineData?inputMonth=${inputMonth}`;
+        const url =`https://roxillarsystemassesmentprojectbackendapp.onrender.com/api/products/getCombineData?inputMonth=${inputMonth}`;
         const options = 
         {
             method: 'GET',
